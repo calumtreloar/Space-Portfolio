@@ -51,3 +51,23 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .Welcome-box {
+    flex-direction: column;
+    width: 90%; /* Adjust width to fit mobile screens */
+    margin: 0 auto; /* Center the box */
+  }
+
+  .button-primary {
+    width: 100%; /* Full width buttons on mobile */
+    margin-top: 1rem; /* Add some space between stacked elements */
+  }
+}
+
+@media (max-width: 480px) {
+  .Welcome-text {
+    font-size: smaller; /* Adjust text size for very small screens */
+  }
+}
